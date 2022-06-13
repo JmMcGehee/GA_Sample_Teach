@@ -28,7 +28,7 @@ That imediately prints to the console:
 Though we've been successful, this wasn't very useful because it only ran once. Instead let's write a function that will allow us to use this code whenever we need. 
 
 ```javascript
-const sayHello = function() {
+function sayHello() {
   console.log("Hello, Joshua")
 }
 ```
@@ -85,8 +85,14 @@ function sayMyName(myName) {
 
 ## Further Learning
 
-[Mozzilla Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-[You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md)
+  1. [Mozzilla Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+  2. [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md)
+  3. Assigning functions to variables, or using ES6 arrow functions: 
+  ```javascript
+  const sayHelloAgain = (newName) => {
+    console.log("Hello again, " + newName)
+  }
+  ```
 
 ### Instructor notes 
 
