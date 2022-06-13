@@ -23,7 +23,7 @@ That imediately prints to the console:
 
 ![Screen Shot 2022-06-12 at 7 12 04 PM](https://user-images.githubusercontent.com/45159628/173262664-93bbf98f-4a30-4a36-a86a-e710f25da308.png)
 
-### Declare the function
+### DECLARE the function
 
 Though we've been successful, this wasn't very useful because it only ran once. Instead let's write a function that will allow us to use this code whenever we need. 
 
@@ -33,7 +33,7 @@ const sayHello = function() {
 }
 ```
 
-### Call the function
+### CALL the function
 
 If we add this to the console, it looks like nothing happens. But that's not the case. The browser has stored our code in the constant `sayHello`. To access it, we just need to call or invoke the function. We do this by typing the name of the function with some parenthesis, so 
 
@@ -47,7 +47,7 @@ And this is our output.
 
 Now we can acces this function whenever we need. 
 
-### Make it reusable
+### Make it REUSABLE
 
 You might see different ways of declaring functions: 
 
@@ -59,7 +59,7 @@ function sayGoodBye() {
 
 ![Screen Shot 2022-06-12 at 7 28 30 PM](https://user-images.githubusercontent.com/45159628/173263794-9d99e9b7-680c-4d9a-b6a1-23a33ce0b9a3.png)
 
-### Add a parameter
+### Add a PARAMETER
 
 If we wan a function to work for any name we put in, we can add a parameter. A parameter serves a placeholder for any value we want the function to work with: 
 
@@ -73,10 +73,14 @@ function sayMyName(myName) {
 
 ## Exercise: 
 
-  1. Write a function that prints your name (or anything you want) to the console. 
-  2. Call that function. 
+  1. DECLARE a function that prints your name (or anything you want) to the console. 
+  2. CALL that function. 
   
-*Extra Credit*: Write a function what uses the parameters `firstName` and `lastName`.
+*Extra Credit*: Make the function REUSABLE
+
+*Extra Extra Credit*: Write a function that takes a PARAMETER.
+
+*Extra Extra Extra Credit*: Write a function what uses the parameters `firstName` and `lastName`.
 
 
 ## Further Learning
