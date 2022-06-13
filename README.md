@@ -75,6 +75,7 @@ function sayMyName(myName) {
 
   1. Write a function that prints your name (or anything you want) to the console. 
   2. Call that function. 
+  
 *Extra Credit*: Write a function what uses the parameters `firstName` and `lastName`.
 
 
