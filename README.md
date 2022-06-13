@@ -8,7 +8,7 @@ After this lesson, your should be able to:
 
 ### What you'll need:
   1. Some understanding of what JavaScript is (know that it's a coding language -- having some exposure to variables, data types, and `consol.log()` wouldn't hurt).
-  2. Access to a coding enviroment, like [CodePen](https://codepen.io/pen/) or a Browser (`Command + Option + J` for Mac or `Control + Shift + J` for Windows)
+  2. Access to a coding enviroment, like a Browser (`Command + Option + J` for Mac or `Control + Shift + J` for Windows).
 
 ## Lesson/Example:
 
