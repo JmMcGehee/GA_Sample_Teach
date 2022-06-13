@@ -35,7 +35,7 @@ function sayHello() {
 
 ### CALL the function
 
-If we add this to the console, it looks like nothing happens. But that's not the case. The browser has stored our code in the constant `sayHello`. To access it, we just need to call or invoke the function. We do this by typing the name of the function with some parenthesis, so 
+If we add this to the console, it looks like nothing happens. But that's not the case. The browser has stored our code in `sayHello`. To access it, we just need to call or invoke the function. We do this by typing the name of the function with some parenthesis, so 
 
 ```javascript
 sayHello()
